@@ -1,0 +1,99 @@
+/* General body style */
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* ================= INDEX PAGE ================= */
+body.index-page {
+    background: pink;
+}
+
+.box {
+    text-align: center;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#yes {
+    background-color: #ff4d6d;
+    color: white;
+}
+
+#no {
+    background-color: #ccc;
+}
+
+/* ================= YES PAGE ================= */
+body.yes-page {
+    background-color: #9f0521;
+    text-align: center;
+}
+
+.container {
+    background: #fff0f3;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.yes-page h1 {
+    margin: 10px 0;
+}
+
+p {
+    color: #555;
+    margin: 10px 0 20px;
+}
+
+.hidden-text {
+    font-size: 9px;
+    opacity: 0.25;
+    color: #555;
+    margin-top: 5px;
+}
+
+/* ================= NO PAGE ================= */
+body.no-page {
+    background: #030001;
+    text-align: center;
+}
+
+.dark-box {
+    background: rgb(11, 0, 0);
+}
+
+/* Image styling */
+img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
